@@ -17,9 +17,10 @@ class Matrix:
         return Matrix(self.matrix)
 
 
-a = Matrix([[5, 8, 4], [15, 71, 20]])
+a = Matrix([[50, 80, 45], [15, 71, 20]])
 b = Matrix([[20, 10, 40], [45, 50, 100]])
-print(f'{a.__str__()}\n{ b.__str__()}')
-print(a.__add__(b))
+print(f'Матрица a:\n{a.__str__()}\nМатрица b:\n{ b.__str__()}\n'
+      f'Их сумма:\n{a.__add__(b)}')
+
 
 
