@@ -14,7 +14,7 @@ except ValueError:
     print("Вы ввели не число")
 except ZeroDivisionError:
     print('На ноль делить нельзя!')
-except MyError as err:
-    print(err)
+except MyError:
+    print(MyError)
 else:
     print(l)
